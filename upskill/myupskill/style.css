@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:10px;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-width:bold;
+    color:black;
+}
+
+nav ul li a:hover{
+    color:#ff6a6a;
+    transition:.3s;
+}
+
+button{
+    background:Rgb(111, 194, 71);
+    color:white;
+    border-radius:5px;
+    border:none;
+    padding:15px 30px;
+    font-width:bold;
+    font-size:15px;
+    transform:.4s;
+    /* align-items:right;
+    margin-right:10px;*/
+    position:relative;
+    right:20px; 
+} 
+
+button:hover{
+    cursor:pointer;
+    transform:scale(1.3s);
+}
+
+.logo img{
+    height:100px;
+    width:200px;
+    margin-left:30px;
+    align-item:left;
+    position:relative;
+    right:55px; 
+}
+
+hr{
+  background: grey;
+}
+
+/* .button{
+    text-align:right;
+    width:50%;
+} */
+
+.color a{
+    color:#40a1ff;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  
+}
+
+li a, i{
+    text-align:center;
+    position:relative;
+    right:70px;
+}
+
+.legend{
+    text-align:center;
+    padding:50px;
+    
+}
+
+.sec{
+    margin-top:50px;
+    font-width:bold;
+    font-size:55px; 
+    line-height:1.5;
+}
+
+.division{
+    line-height:1.5;
+    margin-top:20px;
+    word-spacing:-1px;
+    font-size:20px;
+    }
+
+.head{
+    text-align:center;
+}
+
+.button{
+    background-color:white;
+    color:#2EBB57;
+    border:1px solid #2EBB57;
+}
+
+.image{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    display:block;
+    margin-top:50px;
+    line-height:4.5;
+    
+}
+
+.grid{
+    text-align:center;
+    line-height:1.5;
+    margin-top:40px;
+}
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+.flex-item {
+    flex: 0 0 calc(25% - 10px);
+    text-align: center;
+  }
+
+  .flex-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100px;
+    background:#f7f7f7;
+    width:200px;
+    padding:20px;
+  }
+
+hr{
+    background:#f7f7f7; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin:50px 0;
+  background:black;
+  color:white;
+}
+
+.flex {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  margin-top:50px;
+  margin-left:90px;
+}
+
+.item {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  /* background-color: #f2f2f2; */
+  border-radius: 5px;
+}
+
+.item h3 {
+  margin-top: 0;
+}
+
+.item p {
+  margin-bottom: 0;
+}
+
+#others{
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    margin-right: 100px;
+}
+
+#others h2{
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#others h4{
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+#others p{
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.other{
+    width: 450px;
+    margin: 70px;
+}
+
+.special{
+    margin-left: 25px;
+    width: 270px;
+}
+
+#man{
+    width: 470px;
+    height: 570px;
+    margin: 65px 90px 20px;
+}
+
+#man img{
+    max-width: 100%;
+    height: 100%; 
+    margin: 0px auto;
+    margin-right:20px;
+    diplay:flex;
+    justify-content:center;
+}
+
+.last{
+    text-align: center;
+    background-color: #6FC247;
+    width: 205px;
+    margin: 10px auto 40px;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.last a{
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.last:hover{
+    background-color: green;
+    border: 2px solid #6FC247;
+    box-shadow: 1px -1px;
+    transition: 1s;
+}
+
+.last a:hover{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
